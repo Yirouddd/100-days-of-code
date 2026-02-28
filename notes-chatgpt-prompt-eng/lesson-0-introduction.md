@@ -27,7 +27,7 @@
 
 **Prompt Engineering：是针对特定任务构造能充分发挥大模型能力的 Prompt 的技巧。**
 简单来说，提示工程是指设计和优化输入文本（Prompt），以引导大语言模型生成特定、高质量输出的实践和技术。 简单说，就是“如何跟AI说话，才能让它更好地为你干活”。
-
+  
 
 ### 2. [Two types of large language models: basic LLM and instruction-tuned LLM.]
 ##
