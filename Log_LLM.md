@@ -10,4 +10,4 @@ The log of my #100DaysOfCode challenge. Started on [Feb 28, Saturday, 2026].
   - What is Prompt / Prompt Engineering
   - Concept of downstream tasks
   - Difference between Base LLM vs Instruction Tuned LLM
-- 📝 **Notes:** Finished organizing notes for the [*Introduction*](../notes-chatgpt-prompt-eng/lesson-0-introduction.md) section
+- 📝 **Notes:** Finished organizing notes for the [*Introduction*](./notes-chatgpt-prompt-eng/lesson-0-introduction.md) section
