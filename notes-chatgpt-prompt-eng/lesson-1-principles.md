@@ -15,7 +15,7 @@
 
 ## 📝 Core Concepts
 
-### 1. [What is Prompt and Prompt Engineering?]
+### 2. [What is Prompt and Prompt Engineering?]
 ## 
 **Prompt(提示): 最初是 NLP 研究者为**下游任务**设计出来的一种任务专属的输入形式或模板，在 ChatGPT 引发大语言模型新时代之后，Prompt 即成为与大模型交互输入的代称。**
 即**我们一般将给大模型的输入称为 Prompt，将大模型返回的输出称为 Completion**。
