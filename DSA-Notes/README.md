@@ -5,7 +5,7 @@
 
 
 ## 📅 Recent Activity
-[Greedy Algorithms](DSA-Notes/01-greedyAlgorithms)
+[Greedy Algorithms](./01-greedyAlgorithms)
 - [Feb 28](./problem-log/2026-02-28.md): 2 problems
 - [Feb 27](./problem-log/2026-02-27.md): 3 problems
 - [Feb 26](./problem-log/2026-02-26.md): 1 problem
