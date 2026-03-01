@@ -1,0 +1,27 @@
+## [241] Different Ways to Add Parenthesses
+
+**Difficulty**: ⭐️⭐️ Medium  
+**Date**: 2026-03-01     
+**Tags**: `Divide and Conquer`   
+
+### Problem Description  
+Given an array nums with n integers, your task is to check if it could become non-decreasing by modifying at most one element.  
+
+### 解题思路
+
+#### 1. 核心思想：按运算符分治
+
+- 遍历字符串中的每一个字符  
+- 当遇到运算符（`+`、`-`、`*`）时，将表达式**分治**为左右两部分  
+- 左半部分和右半部分分别**递归计算**所有可能的结果  
+
+#### 2. 递归计算过程
+
+```cpp  
+vector<int> left = diffWaysToCompute(左侧表达式);  
+vector<int> right = diffWaysToCompute(右侧表达式);  
+
+#### 3. 边界条件（Base Case）  
+如果当前表达式是纯数字（不含任何运算符）  
+
+直接返回 [数字] 作为结果
