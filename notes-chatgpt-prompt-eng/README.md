@@ -24,7 +24,7 @@
 | Lesson | Topic | Notes | Status |
 |--------|-------|-------|--------|
 | 0 | Introduction | [📝 Notes](./lesson-0-introduction.md) | ✅ |
-| 1 | Two Principles | [📝 Notes](./lesson-1-principles.md) | ⏳ |
+| 1 | Two Principles | [📝 Notes](./lesson-1-principles.md) | ✅ |
 | 2 | Summarizing | [📝 Notes](./lesson-2-summarizing.md) | ⏳ |
 | 3 | Inferring | [📝 Notes](./lesson-3-inferring.md) | ⏳ |
 | 4 | Transforming | [📝 Notes](./lesson-4-transforming.md) | ⏳ |
