@@ -10,7 +10,7 @@
 ---
 
 ## 🎯 Learning Objectives
-- [ ] Master the two core principles of prompt engineering
+- [x] Master the two core principles of prompt engineering
 - [ ] Learn to call OpenAI API
 - [ ] Implement **Summarizing**
 - [ ] Implement **Inferring**
