@@ -15,3 +15,9 @@ The log of my #100DaysOfCode challenge. Started on [Feb 28, Saturday, 2026].
   - [Divide and Conquer](./DSA-Notes/Divide-and-Conquer.md)
     - ✅ Completed [241] Different Ways to Add Parenthess[*exercise*](./DSA-Notes/problem-log/2026-03-01.md)
     - ✅ Completed [932] Beautiful Array
+
+### R1D1 (Mar 07)
+- 📘 **Learning content:**
+   - [Divide and Conquer](./DSA-Notes/Divide-and-Conquer.md)
+     - 👀 Review [241] Different Ways to Add Parenthess
+     - 👀 Review [932] Beautiful Array
