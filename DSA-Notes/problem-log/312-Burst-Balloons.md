@@ -51,6 +51,7 @@ for length = 1 to n:
             dp[i][j] = max(dp[i][j], coins)
 
 return dp[1][n]
+
 text
 
 ### Common Pitfalls ⚠️
