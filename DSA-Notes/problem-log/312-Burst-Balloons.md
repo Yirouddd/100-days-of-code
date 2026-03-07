@@ -35,7 +35,7 @@ Where `k` is the **last balloon** to be burst in the current interval.
 
 ### Pseudocode
 
-​```cpp
+​```cpp  
 n = nums.length
 // Add virtual boundaries
 newNums = [1] + nums + [1]
@@ -52,7 +52,7 @@ for length = 1 to n:
             dp[i][j] = max(dp[i][j], coins)
 
 return dp[1][n]
-text
+```
 
 ### Common Pitfalls ⚠️
 
