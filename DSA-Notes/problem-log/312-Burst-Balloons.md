@@ -8,11 +8,11 @@
 
 ### Problem Description
 
-You are given `n` balloons, indexed from `0` to `n - 1`. Each balloon is painted with a number on it represented by an array `nums`. You are asked to burst all the balloons.
+You are given `n` balloons, indexed from `0` to `n - 1`. Each balloon is painted with a number on it represented by an array `nums`. You are asked to burst all the balloons.  
 
-If you burst the `i`-th balloon, you will get `nums[i - 1] * nums[i] * nums[i + 1]` coins. If `i - 1` or `i + 1` goes out of bounds of the array, then treat it as if there is a balloon with a `1` painted on it.
+If you burst the `i`-th balloon, you will get `nums[i - 1] * nums[i] * nums[i + 1]` coins. If `i - 1` or `i + 1` goes out of bounds of the array, then treat it as if there is a balloon with a `1` painted on it.  
 
-Return the maximum coins you can collect by bursting the balloons wisely.
+Return the maximum coins you can collect by bursting the balloons wisely.  
 
 ### Core Idea
 
@@ -34,7 +34,8 @@ Where `k` is the **last balloon** to be burst in the current interval.
 **Note**: Add `1` at both ends of the original array to handle boundary cases easily.
 
 ### Pseudocode
-​```
+
+​```cpp
 n = nums.length
 // Add virtual boundaries
 newNums = [1] + nums + [1]
@@ -51,7 +52,6 @@ for length = 1 to n:
             dp[i][j] = max(dp[i][j], coins)
 
 return dp[1][n]
-
 text
 
 ### Common Pitfalls ⚠️
