@@ -35,7 +35,7 @@ Where `k` is the **last balloon** to be burst in the current interval.
 
 ### Pseudocode
 
-​```cpp  
+```cpp  
 n = nums.length
 // Add virtual boundaries
 newNums = [1] + nums + [1]
