@@ -21,3 +21,4 @@ The log of my #100DaysOfCode challenge. Started on [Feb 28, Saturday, 2026].
    - [Divide and Conquer](./DSA-Notes/Divide-and-Conquer.md)
      - 👀 Review [241] Different Ways to Add Parenthess
      - 👀 Review [932] Beautiful Array
+     - ✅ Completed [312] [*Burst Balloons*](./DSA-Notes/problem-log/312-Burst-Balloons.md)
