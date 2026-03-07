@@ -5,7 +5,7 @@
 **Difficulty**: ⭐️⭐️⭐️ Hard  
 **Date**: 2026-03-07  
 **Tags**: `Divide and Conquer`, `Dynamic Programming`
-
+  
 ### Problem Description
 
 You are given `n` balloons, indexed from `0` to `n - 1`. Each balloon is painted with a number on it represented by an array `nums`. You are asked to burst all the balloons.  
@@ -21,18 +21,22 @@ Return the maximum coins you can collect by bursting the balloons wisely.
 Don't think about "which one to burst first," but rather **"which one to burst last."**
 
 **Why?**
-- **Forward approach**: Popping a balloon changes the array, making neighbor relationships difficult to handle.
-- **Reverse approach**: The left and right neighbors of the balloon that is popped last are fixed (values outside the interval).
-
+- **Forward approach**: Popping a balloon changes the array, making neighbor relationships difficult to handle.  
+- **Reverse approach**: The left and right neighbors of the balloon that is popped last are fixed (values outside the interval).  
+  
 #### Interval Dynamic Programming
 
 Define `dp[i][j]` = maximum coins obtained by bursting all balloons from index `i` to `j`.
 
-**State Transition**: dp[i][j] = max(dp[i][k-1] + dp[k+1][j] + nums[i-1] * nums[k] * nums[j+1]) for k in [i, j]  
+**State Transition**: 
+```cpp  
+dp[i][j] = max(dp[i][k-1] + dp[k+1][j] + nums[i-1] * nums[k] * nums[j+1]) for k in [i, j]
+```    
 
-Where `k` is the **last balloon** to be burst in the current interval.
-**Note**: Add `1` at both ends of the original array to handle boundary cases easily.
+Where `k` is the **last balloon** to be burst in the current interval.  
+**Note**: Add `1` at both ends of the original array to handle boundary cases easily.  
 
+    
 ### Pseudocode
 
 ```cpp  
