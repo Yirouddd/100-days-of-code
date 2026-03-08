@@ -35,33 +35,6 @@
 
 ---
 
-## 💻 Code Practice
-| Practice | Description | Code |
-|----------|-------------|------|
-| API Basics | First OpenAI API call | [🔗 Code](./code-snippets/01-api-basics.py) |
-| Summarize | Summarize reviews/articles | [🔗 Code](./code-snippets/02-summarize.py) |
-| Infer | Sentiment analysis/entity extraction | [🔗 Code](./code-snippets/03-infer.py) |
-| Transform | Translation/grammar correction | [🔗 Code](./code-snippets/04-transform.py) |
-| Expand | Auto-generate emails | [🔗 Code](./code-snippets/05-expand.py) |
-| Chatbot | Build a custom chatbot | [🔗 Code](./code-snippets/06-chatbot.py) |
-
----
-
-## ✨ Key Takeaways
->
-
-- 
-- 
-- 
-
----
-
-## 🤔 Questions & Ideas
-- 
-- 
-
----
-
 ## 🔗 Resources
 - [OpenAI API Docs](https://platform.openai.com/docs/)
 - [DeepLearning.AI](https://www.deeplearning.ai/)
