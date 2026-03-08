@@ -13,10 +13,11 @@ Text summarization is the process of using Large Language Models to automaticall
 - **Extractive Summarization**: Pulls key sentences directly from the original text
 - **Abstractive（生成式） Summarization**: LLM understands the text and generates new sentences in its own words (more flexible and intelligent)
 
+---
 
 ## Summary Techniques
 ### Summarizing a single text
-> **Length Control**  
+>  **Length Control**  
 
 ```text
 prompt = f"""
@@ -69,7 +70,38 @@ for i in range((len(reviews)):
   Article content: '''{reviews[i]}'''
   """
   respnse = get_completion(prompt)
-  
+```
 
+---
 
+## Advanced Summarization Techniques
+### Chain Summarization (for very long texts)
+```text
+Step 1: Split long document into parts, summarize each
+Step 2: Combine part summaries, summarize again
+Step 3: Get final condensed version
+```
 
+work flow example:
+```text
+Here's Part 1 of my article: [content]
+Please create a 100-word summary.
+
+(after completion)
+Here's Part 2 of my article: [content]
+Please create a 100-word summary.
+
+(after all parts)
+Now combine all these part summaries into one 300-word comprehensive summary.
+```
+
+### Emphasis-Based Summary
+```text
+Summarize these meeting notes with special attention to:
+- Agreements reached (mark with **)
+- Action items (mark with >>)
+- Points of disagreement (mark with ??)
+
+Meeting notes:
+[paste your text here]
+```
