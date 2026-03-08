@@ -1,0 +1,35 @@
+# Mathematical Problems
+
+## 1. Common diviser and common multiple
+### Euclidean Algorithm
+use to Calculate the greatest common divisor of two integers.
+> gcd(a, b) = gcd(b, a mod b)  
+
+
+
+```cpp
+int gcd(int a, int b) {
+  return b == 0? a : gcd (b, a% b);
+}
+```
+### Extended Euclidean Algorithm
+The Extended Euclidean Algorithm can not only find the **greatest common divisor (gcd(a, b))** of two integers a and b, but also find **integers x and y** such that...
+> ax + by = gcd(a, b)
+
+```cpp
+int xGCD(int a, int b, int &x, int &y){
+  if(!b){
+    x = 1, y = 0;
+    return a;
+  }
+  int x1, y1, gcd = xGCD(b, a % b, x1, y1);
+  x = y1, y = x1 - (a / b) * y1;
+  return gcd;
+}
+```
+
+## Prime Number
+A prime number can only be divided evenly by 1 and itself.
+
+exercise:
+[204. Count Primes](./problem-log/204-count-primes.md)
