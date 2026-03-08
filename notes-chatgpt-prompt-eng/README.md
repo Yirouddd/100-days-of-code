@@ -14,7 +14,7 @@
 |--------|-------|-------|--------|
 | 0 | Introduction | [📝 Notes](./lesson-0-introduction.md) | ✅ |
 | 1 | Prompt Guidelines | [📝 Notes](./lesson-1-principles.md) | ✅ |
-| 2 | Prompt Itrative | [📝 Notes](./lesson-2-promptItrative.md) | ✅ |
+| 2 | Prompt Itrative | [📝 Notes](./lesson-2-promptIterative.md) | ✅ |
 | 3 | Summarizing | [📝 Notes](./lesson-3-summarizing.md) | ✅ |
 | 4 | Inferring | [📝 Notes](./lesson-4-inferring.md) | ✅ |
 | 5 | Transforming | [📝 Notes](./lesson-5-transforming.md) | ⏳ |
