@@ -20,7 +20,7 @@
 - [312 - Burst Ballons](./problem-log/312-Burst-Balloons.md) - Mar 07
 
 [Mathematical problems](./mathematical-problems.md)
-- [312 - Burst Ballons](./problem-log/312-Burst-Balloons.md) - Mar 07
+- [204. Count Primes](https://leetcode.com/problems/count-primes/) - Mar 08
 
 
 
