@@ -1,16 +1,22 @@
 # DSA Study Notes
 
 ## 📊 Progress Overview
-- [x] Greedy algorithms (9 problems)
-- [ ] Two pointers
-- [ ] Binary search
-- [ ] Sort
-- [ ] Depth First Search & Breath First Search
-- [ ] Dynamic Programming
-- [ ] Divide and Conquer
+- [x] Greedy algorithms
+- [x] Two pointers
+- [x] Binary search
+- [x] Sort
+- [x] Depth First Search & Breath First Search
+- [x] Dynamic Programming
+- [x] Divide and Conquer
 - [ ] Mathematical problems
-- [ ] ...
+- [ ] Bitwise operations
+- [ ] Data Structure
+- [ ] String
+- [ ] Linked list
+- [ ] Tree
+- [ ] Graph
 
+ ---
 
 ## 📅 Recent Activity
 [Greedy Algorithms](./01-greedyAlgorithms.md)  
@@ -22,8 +28,7 @@
 [Mathematical problems](./mathematical-problems.md)
 - [204. Count Primes](https://leetcode.com/problems/count-primes/) - Mar 08
 
-
-
+ ---
 
 ## 📚 Useful Links
 - [LeetCode](https://leetcode.com)
