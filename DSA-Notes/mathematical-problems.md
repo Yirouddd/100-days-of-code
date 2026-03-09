@@ -28,7 +28,7 @@ int xGCD(int a, int b, int &x, int &y){
 }
 ```
 
-## Prime Number
+## 2. Prime Number
 A prime number can only be divided evenly by 1 and itself.
 
 Practice:
@@ -47,3 +47,19 @@ Imagine you have a bowl of numbered balls from 2 to 100:
 4. Remove all multiples of 3 (6, 9, 12, 15...)  
 5. Continue until done  
 What's left? All prime numbers!
+
+
+## 3. Digital Processing
+
+> [204. Base 7](https://leetcode.com/problems/base-7/) [需要再做一次]
+
+For problems involving **base conversion**, the calculation is typically done using **division** and **modulo(mod)** operations, while also paying attention to details such as negative numbers and zero. If the output is not a string, it is also necessary to consider whether it exceeds the bounds of the integer type.
+  
+ **"Base Division Remainder Method"** (or simply **"Repeated Division Algorithm"**).  
+Its core idea is:  **"Continuously take the remainder and add it to the front, while Continuously dividing the number by the base."**
+   
+    
+> [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) [需要再做一次]
+
+Core idea: count = floor(n/5) + floor(n/25) + floor(n/125) + …
+
