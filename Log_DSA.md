@@ -22,3 +22,8 @@ The log of my #100DaysOfCode challenge. Started on [Feb 28, Saturday, 2026].
      - 👀 Review [241] Different Ways to Add Parenthess
      - 👀 Review [932] Beautiful Array
      - ✅ Completed [312] [*Burst Balloons*](./DSA-Notes/problem-log/312-Burst-Balloons.md)
+
+### R1D1(Mar 14)
+- 📘 **Learning content:**
+  - [Graph](./DSA-Notes/graph.md)
+    - ✅ Completed [785] [Is Graph Bipartite?]
