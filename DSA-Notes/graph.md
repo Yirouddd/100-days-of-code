@@ -125,3 +125,6 @@ If successful, the graph is bipartite; if a color conflict occurs, it's not.
 2. Give all neighbors the opposite color
 3. Continue BFS/DFS through graph
 4. If we find adjacent vertices with same color → NOT bipartite
+
+practice:
+[785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
