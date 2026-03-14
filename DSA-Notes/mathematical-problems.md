@@ -51,7 +51,7 @@ What's left? All prime numbers!
 
 ## 3. Digital Processing
 
-> [204. Base 7](https://leetcode.com/problems/base-7/) [需要再做一次]
+> [504. Base 7](https://leetcode.com/problems/base-7/) [需要再做一次]
 
 For problems involving **base conversion**, the calculation is typically done using **division** and **modulo(mod)** operations, while also paying attention to details such as negative numbers and zero. If the output is not a string, it is also necessary to consider whether it exceeds the bounds of the integer type.
   
