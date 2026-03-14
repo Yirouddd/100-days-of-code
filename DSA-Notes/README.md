@@ -8,13 +8,13 @@
 - [x] Depth First Search & Breath First Search
 - [x] Dynamic Programming
 - [x] Divide and Conquer
-- [ ] Mathematical problems
+- [x] Mathematical problems
 - [ ] Bitwise operations
 - [ ] Data Structure
 - [ ] String
 - [ ] Linked list
 - [ ] Tree
-- [ ] Graph
+- [x] Graph Theory
 
  ---
 
