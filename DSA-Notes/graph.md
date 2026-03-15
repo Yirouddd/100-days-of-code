@@ -128,3 +128,32 @@ If successful, the graph is bipartite; if a color conflict occurs, it's not.
 
 practice:
 [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)
+
+---
+
+## Topological sort
+Topological sort is an ordering of vertices in a directed acyclic graph (DAG) such that for every directed edge u → v, vertex u comes before vertex v in the ordering.
+
+### Key Properties
+Only works on DAGs (Directed Acyclic Graphs) - if the graph has a cycle, topological sort is impossible  
+Not necessarily unique - a DAG can have multiple valid topological orderings  
+Linear ordering - it produces a linear sequence of all vertices  
+
+### example
+```text
+Graph:
+1 → 2 → 4
+↓   ↓
+3 → 5
+
+Valid topological sorts:
+1, 2, 3, 4, 5
+1, 3, 2, 4, 5
+1, 2, 3, 5, 4
+```
+note:  
+In-degree = Number of edges coming into a node  
+Out-degree = Number of edges going out of a node
+
+practice:  
+[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
