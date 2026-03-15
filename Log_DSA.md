@@ -38,3 +38,8 @@ The log of my #100DaysOfCode challenge. Started on [Feb 28, Saturday, 2026].
 - 📘 **Learning content:**
   - [Graph](./DSA-Notes/graph.md)
     - ✅ Completed [785] [Is Graph Bipartite?]
+
+ ### R1D7 (Mar 15)
+- 📘 **Learning content:**
+  - [Graph](./DSA-Notes/graph.md)
+    - ✅ Completed [210] [Course Schedule II]
