@@ -28,12 +28,12 @@
 [Mathematical problems](./mathematical-problems.md)
 - [204. Count Primes](https://leetcode.com/problems/count-primes/) - Mar 08
 - [326. Power of Three] - Mar 09
-- [504. Base 7] - Mar 09
-- [172. Factorial Trailing Zeroes] - Mar 09
+- [504. Base 7](https://leetcode.com/problems/base-7/) - Mar 09
+- [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) - Mar 09
 
 [Graph Theoty](./graph.md)
 - [785. Is Graph Bipartite?] - Mar 14
-
+- [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
  ---
 
 ## 📚 Useful Links
