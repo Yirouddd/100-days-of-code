@@ -35,6 +35,10 @@
 - [785. Is Graph Bipartite?] - Mar 14
 - [210. Course Schedule II] - Mar 15
 - [841. Keys and Rooms] - Mar 16
+
+[Data Structure](./data-structure.md)
+
+
  ---
 
 ## 📚 Useful Links
