@@ -31,7 +31,7 @@
 - [504. Base 7](https://leetcode.com/problems/base-7/) - Mar 09
 - [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) - Mar 09
 
-[Graph Theoty](./graph-theory.md)
+[Graph Theory](./graph-theory.md)
 - [785. Is Graph Bipartite?] - Mar 14
 - [210. Course Schedule II] - Mar 15
 - [841. Keys and Rooms] - Mar 16
