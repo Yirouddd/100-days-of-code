@@ -43,3 +43,8 @@ The log of my #100DaysOfCode challenge. Started on [Feb 28, Saturday, 2026].
 - 📘 **Learning content:**
   - [Graph](./DSA-Notes/graph.md)
     - ✅ Completed [210] [Course Schedule II]
+
+ ### R1D8 (Mar 16)
+- 📘 **Learning content:**
+  - [Graph](./DSA-Notes/graph.md)
+    - ✅ Completed [841. Keys and Rooms]
