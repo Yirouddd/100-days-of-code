@@ -37,6 +37,7 @@
 - [841. Keys and Rooms] - Mar 16
 
 [Data Structure](./data-structure.md)
+- [48. Rotate Image](https://leetcode.com/problems/rotate-image/) - Mar 20
 
 
  ---
