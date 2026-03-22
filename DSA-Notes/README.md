@@ -36,10 +36,15 @@
 - [210. Course Schedule II] - Mar 15
 - [841. Keys and Rooms] - Mar 16
 
-[Data Structure](./data-structure.md)
+[Data Structure](./data-structure.md)  
+1. Array  
 - [48. Rotate Image](https://leetcode.com/problems/rotate-image/) - Mar 20
 - [240. Search a 2D Matrix II] - Mar 21
+- [769. Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/) - Mar 22
 
+2. Stack and Queue
+- [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) - Mar 22
+- [155. Min Stack](https://leetcode.com/problems/min-stack/) - Mar 22
 
  ---
 
