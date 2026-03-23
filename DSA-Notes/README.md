@@ -45,7 +45,7 @@
 2. Stack and Queue
 - [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) - Mar 22
 - [155. Min Stack](https://leetcode.com/problems/min-stack/) - Mar 22
-
+- [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) - Mar 23
  ---
 
 ## 📚 Useful Links
