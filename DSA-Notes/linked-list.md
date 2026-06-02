@@ -77,23 +77,34 @@ while(cur->next){
 
 ---
 
-## Find the center node
-leetcode 876
+## 4. Find the center node
+leetcode 876 (easy)
 
 ``` c
 1 -> 2 -> 3 -> 4 -> 5
 ```
 return 3
 
-**fast and slow pointer**
+**Method： fast and slow pointer**  
+fast 每次走 2 步，slow 每次走 1 步。
+当 fast 到终点时，slow 正好走了一半。
 
+``` c
+ListNode* slow = head;
+ListNode* fast = head;
 
+while(fast && fast->next){
 
+    slow = slow->next;
+    fast = fast->next->next;
+}
 
+return slow;
+```
 
 ---
 
-Linked List Cycle
+## 5. Linked List Cycle
 
 ```python
 slow 每次走1步
@@ -108,3 +119,65 @@ fast 每次走2步
 相遇 => true
 到null => false
 ```
+
+``` c
+while(fast && fast->next){
+
+    slow = slow->next;
+    fast = fast->next->next;
+
+    if(slow == fast)
+        return true;
+}
+```
+
+---
+
+## 6. Cycle entrance
+leetcode 142
+
+example
+``` c
+1 -> 2 -> 3 -> 4
+     ^         |
+     |_________|
+```
+retuen 2
+
+---
+
+## 7. Combine 2 ordered linked list
+leetcode 21  
+1->3->5 and 2->4->6  
+to 1->2->3->4->5->6
+
+``` c
+ListNode dummy(0);
+ListNode* tail = &dummy;
+```
+
+``` c
+while(l1 && l2){
+
+    if(l1->val < l2->val){
+
+        tail->next = l1;
+        l1 = l1->next;
+    }
+    else{
+
+        tail->next = l2;
+        l2 = l2->next;
+    }
+
+    tail = tail->next;
+}
+```
+
+``` c
+tail->next = l1 ? l1 : l2;
+```
+
+## 8. Delete the nth node
+
+
